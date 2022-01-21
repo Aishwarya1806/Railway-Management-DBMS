@@ -1,0 +1,29 @@
+<html>
+<head><title> Transaction </title></head>
+<body bgcolor="yellow">
+<h1 align="center"> Transaction </h1>
+<hr></hr>
+<style>
+body {
+	background-image: url("railway.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	}
+</style>
+<h3>Enter Transaction Details</h3>
+<form action='py.php'>
+  	Total amountt:<br>
+	<input type="text" name="totalamount"><br>
+	Mode of Payment:<br>
+	<input type="radio"name="modeofpayment"value="UPI">UPI<br>
+	<input type="radio"name="modeofpayment"value="Cash">Cash<br>
+	<input type="radio"name="modeofpayment"value="Card">Card<br><br>
+	GST:<br>
+	<input type="text"name="gst"><br>
+	<input type="submit" value="Make Payment"><br></br>
+	<a href="home.html">Click here for Home Page</a>
+
+</form>
+</body>
+</html>

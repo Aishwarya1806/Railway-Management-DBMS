@@ -1,0 +1,34 @@
+<html>
+<head><title> Train Details </title></head>
+<body bgcolor="yellow">
+<h1 align="center"> Train Details </h1>
+<hr></hr>
+<style>
+body {
+	background-image: url("railway.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	}
+</style>
+<h3>Enter Train Details</h3>
+<form action='t.php'>
+  	Train Name:<br>
+	<input type="text" name="trainname"><br>
+	Train Number:<br>
+	<input type="text" name="trainnumber"><br>
+	Status:<br>
+	<input type="radio"name="status"value="RAC">RAC<br>
+	<input type="radio"name="status"value="waiting">waiting<br>
+	Destination:<br>
+	<input type="text" name="destination"><br>
+	Compartment:<br>
+	<input type="text" name="compartment"><br><br>
+	Seat Number:<br>
+	<input type="text" name="seatnumber"><br>
+	<input type="submit" value="Book"><br></br>
+	<a href="home.html">Click here for Home Page</a>
+
+</form>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<html>
+<head><title> Ticket Details </title></head>
+<body bgcolor="yellow">
+<h1 align="center"> Ticket Details </h1>
+<hr></hr>
+<style>
+body {
+	background-image: url("railway.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	}
+</style>
+<h3>Enter Train Details</h3>
+<form action='tt.php'>
+  	Departure:<br>
+	<input type="text" name="departure"><br>
+	Destination:<br>
+	<input type="text" name="destination"><br>
+	No of passengers:<br>
+	<input type="text"name="noofpassengers"><br>
+	Date:<br>
+	<input type="date" name="date"><br>
+	Ticket Type:<br>
+	<input type="radio"name="tickettype"value="reservation">Reservation<br>
+	<input type="radio"name="tickettype"value="general">General<br>
+	Seat Type:<br>
+	<input type="radio"name="seattype"value="First class">First Class<br>
+	<input type="radio"name="seattype"value="Second class">Second Class<br>
+	<input type="radio"name="seattype"value="Three Tier">Three Tier<br></br>
+	<input type="submit" value="Book"><br></br>
+	<a href="home.html">Click here for Home Page</a>
+
+</form>
+</body>
+</html>
